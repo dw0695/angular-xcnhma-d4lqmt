@@ -12,4 +12,9 @@ import { products } from '../products';
 export class ProductAlertsComponent {
   @Input() product;
   @Output() notify = new EventEmitter();
+
+    constructor() { }
+
+  ngOnInit() {
+  }
 }
